@@ -1,0 +1,74 @@
+html  {}
+body{}
+::-webkit-scrollbar {
+display: none;
+}
+#h1,#h2,#h3,#h4,#h5,#h6,#h7,#h8{position: relative; float: left; top: -200px;}
+img #h8{}
+div#a{background:white; position:absolute;
+	top: 770px; width: 1600px; height:1200px; 
+	z-index:100 }
+.menuicon{position: fixed; z-index: 102; top:15px;left:25px;
+	width:70px; color: white;}
+.logo{position: absolute; z-index: 200; width: 200px;
+	top:15px; left:650px;}
+.scroll{position: absolute; z-index: 201;width: 100px;
+	top:700px; left:670px;}
+.aboutbt{position:absolute; transform: rotate(-90deg); width: 65px; z-index:201; float: right; right:0px; top:390px; }
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 101;
+    top: 0;
+    left: 0;
+    background-color: #11111180;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 100px;
+}
+
+.sidenav a {
+	font-family: 'Playfair Display', serif;
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 50px;
+    color: #c5c5c5;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+.abouttext{font-family: 'Playfair Display', serif;}
+.name{width:160px; margin-bottom: 50px; }
+.about .row{position:relative; left:80px; top:380px; width: 700px;}
+.row .abouttext{font-size: 1.2rem;}
+.aboutph{width:630px; position: absolute; top:0px; left: 900px;}
+
+#photo{background:white; position:absolute;
+    top: 1570px; width: 6000px; height:800px; 
+    z-index:100; white-space: nowrap;}
+.name2{position: absolute; z-index: 200; width: 200px;
+    top:30px; left:650px;}
+.pp{white-space: nowrap; float: left;}
+.phslid{overflow-x: scroll;
+  overflow-y: hidden;
+   margin-top:130px;  height:650px; width: 6000px;}
+
