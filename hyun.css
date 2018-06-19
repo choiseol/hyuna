@@ -67,7 +67,7 @@ div#a{background:white; position:absolute;
     z-index:100; white-space: nowrap;}
 .name2{position: absolute; z-index: 200; width: 200px;
     top:30px; left:650px;}
-.pp{white-space: nowrap; float: left;}
+.pp{white-space: nowrap;}
 .phslid{overflow-x: scroll;
   overflow-y: hidden;
    margin-top:130px;  height:650px; width: 6000px;}
